@@ -111,7 +111,7 @@ x/16fw 			# 查看内存 16 -- 单元个数，f/x -- 浮点格式/十六进制�
 
 gdb attach <pid>	# 附加进程
 
-gdb program --args arglist # 设置程序运行参数
+gdb --args program arglist # 设置程序运行参数
 set args <params>
 run arglist
 
